@@ -1,12 +1,11 @@
 {
   "name": "lab13",
   "version": "1.0.0",
-  "description": "",
+  "description": "Discription: this is a simple web chat app that uses socket.io and socket.io client.",
   "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "snowpack dev"
-
   },
   "repository": {
     "type": "git",
@@ -19,11 +18,10 @@
     "url": "https://github.com/nour-alsatari/lab13/issues"
   },
   "homepage": "https://github.com/nour-alsatari/lab13#readme",
-  "dependencies": {
-    "socket.io": "^4.4.1",
-    "socket.io-client": "^4.4.1"
-  },
   "devDependencies": {
     "snowpack": "^3.8.8"
+  },
+  "dependencies": {
+    "socket.io-client": "^4.4.1"
   }
 }
