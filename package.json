@@ -1,0 +1,29 @@
+{
+  "name": "lab13",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "snowpack dev"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nour-alsatari/lab13.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nour-alsatari/lab13/issues"
+  },
+  "homepage": "https://github.com/nour-alsatari/lab13#readme",
+  "dependencies": {
+    "socket.io": "^4.4.1",
+    "socket.io-client": "^4.4.1"
+  },
+  "devDependencies": {
+    "snowpack": "^3.8.8"
+  }
+}
